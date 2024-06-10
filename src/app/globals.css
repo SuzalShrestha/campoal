@@ -86,3 +86,15 @@
     font-weight: 400;
     src: url('/fonts/Circularstd-normal.ttf') format('truetype');
   }
+  @font-face {
+    font-family: 'circularstdbold';
+    font-style:regular;
+    font-weight: 800;
+    src: url('/fonts/Circularstd-bold.ttf') format('truetype');
+  }
+  @font-face {
+    font-family: 'circularstdblack';
+    font-style:regular;
+    font-weight: 800;
+    src: url('/fonts/Circularstd-black.ttf') format('truetype');
+  }

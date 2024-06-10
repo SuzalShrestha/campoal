@@ -21,6 +21,8 @@ const config = {
       fontFamily: {
         circularstd: ["circularstd", "sans-serif"],
         circularstdnormal: ["circularstdnormal", "sans-serif"],
+        circularstdbold: ["circularstdbold", "sans-serif"],
+        circularstdblack: ["circularstdblack", "sans-serif"],
       },
       colors: {
         "nav-primary": "#2E77FF",
