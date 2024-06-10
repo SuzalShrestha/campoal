@@ -74,3 +74,15 @@
       @apply bg-background text-foreground;
     }
   }
+  @font-face {
+    font-family: 'circularstd';
+    font-style:regular;
+    font-weight: 800;
+    src: url('/fonts/Circularstd.ttf') format('truetype');
+  }
+  @font-face {
+    font-family: 'circularstdnormal';
+    font-style:regular;
+    font-weight: 400;
+    src: url('/fonts/Circularstd-normal.ttf') format('truetype');
+  }

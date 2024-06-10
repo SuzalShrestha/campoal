@@ -18,9 +18,14 @@ const config = {
       },
     },
     extend: {
+      fontFamily: {
+        circularstd: ["circularstd", "sans-serif"],
+        circularstdnormal: ["circularstdnormal", "sans-serif"],
+      },
       colors: {
         "nav-primary": "#2E77FF",
         "nav-secondary": "#FFC10C",
+        "hero-primary": "#F6EBE1",
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
