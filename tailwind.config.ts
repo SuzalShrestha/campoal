@@ -32,6 +32,7 @@ const config = {
         "nav-secondary": "#FFC10C",
         "hero-primary": "#F6EBE1",
         "card-primary": "#6059C9",
+        "users-primary": "#FFFCF7",
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",

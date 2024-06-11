@@ -11,7 +11,7 @@ function Cards() {
 }
 function Users() {
   return (
-    <div className="px-30 grid grid-cols-2 bg-[#FFFCF7] py-40">
+    <div className="px-30 bg-users-primary grid grid-cols-2 py-40">
       <div className="flex flex-col gap-10 px-20">
         <p className="font-circularstd-normal px-20 text-left text-2xl text-slate-500">
           Who use Platform?
