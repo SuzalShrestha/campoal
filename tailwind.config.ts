@@ -24,10 +24,14 @@ const config = {
         circularstdbold: ["circularstdbold", "sans-serif"],
         circularstdblack: ["circularstdblack", "sans-serif"],
       },
+      backgroundImage: {
+        wave: "url('/wave.svg')",
+      },
       colors: {
         "nav-primary": "#2E77FF",
         "nav-secondary": "#FFC10C",
         "hero-primary": "#F6EBE1",
+        "card-primary": "#6059C9",
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",

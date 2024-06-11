@@ -8,7 +8,7 @@ function CardCustom({
   description: string;
 }) {
   return (
-    <Card className="flex h-[300px] flex-col items-center justify-center rounded-2xl bg-[#6059C9] font-circularstdnormal text-white">
+    <Card className="bg-card-primary flex h-[300px] flex-col items-center justify-center rounded-2xl font-circularstdnormal text-white">
       <CardHeader>
         <CardTitle className="flex flex-col items-center justify-center gap-5">
           <div className="mt-5 flex w-[80px] items-center justify-center rounded-full bg-white text-slate-500">

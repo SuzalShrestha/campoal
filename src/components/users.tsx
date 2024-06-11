@@ -16,7 +16,7 @@ function Users() {
         <p className="font-circularstd-normal px-20 text-left text-2xl text-slate-500">
           Who use Platform?
         </p>
-        <p className="font-circularstdblack px-20 text-left text-5xl font-extrabold leading-tight text-slate-700">
+        <p className="px-20 text-left font-circularstdblack text-5xl font-extrabold leading-tight text-slate-700">
           We believe that when everyone speaks out the problem of society and
           action together, the world will become a better place.
         </p>
