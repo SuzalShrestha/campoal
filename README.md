@@ -6,9 +6,9 @@
 
 1. [Project Setup](#project-setup)
 2. [Running the Project Locally](#running-the-project-locally)
-3. [Code Structure Overview](#code-structure-overview)
-4. [Libraries and Tools Used](#libraries-and-tools-used)
-5. [Design Decisions](#design-decisions)
+3. [Tools Used](#tools-used)
+4. [Project Structure](#project-structure)
+5. [Layout and Code Structure](#layout-and-code-structure)
 6. [Additional Steps and Configurations](#additional-steps-and-configurations)
 
 ## Project Setup
