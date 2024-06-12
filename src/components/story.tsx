@@ -1,7 +1,7 @@
 import Image from "next/image";
 function Story() {
   return (
-    <div className="bg-users-primary grid grid-cols-2 px-40 py-40">
+    <div className="grid grid-cols-2 bg-users-primary px-40 py-40">
       <div className="flex flex-col gap-5 pr-10 font-circularstdnormal text-lg text-slate-500">
         <h1 className="mb-5 font-circularstd text-6xl text-slate-700">
           Our Story
@@ -45,14 +45,14 @@ function Story() {
         <div className="grid-cols-span flex flex-col gap-10">
           <Image
             className="rounded-xl"
-            src="/story-1.webp"
+            src="/stories/story-1.webp"
             alt="story-1"
             width={600}
             height={400}
           />
           <Image
             className="rounded-xl"
-            src="/story-2.jpg"
+            src="/stories/story-2.jpg"
             alt="story-2"
             width={600}
             height={400}
@@ -61,14 +61,14 @@ function Story() {
         <div className="grid-cols-span flex flex-col gap-10 py-40">
           <Image
             className="rounded-xl"
-            src="/story-3.png"
+            src="/stories/story-3.png"
             alt="story-3"
             width={600}
             height={400}
           />
           <Image
             className="rounded-xl"
-            src="/story-4.jpg"
+            src="/stories/story-4.jpg"
             alt="story-4"
             width={600}
             height={400}

@@ -15,7 +15,13 @@ function TeamImage({
   return (
     <div className="relative flex flex-col items-center justify-center">
       <div className="relative h-[280px] w-[250px] overflow-hidden rounded-xl">
-        <Image src={src} alt={alt} width={400} height={400} objectFit="cover" />
+        <Image
+          src={src}
+          alt={alt}
+          width={400}
+          height={400}
+          style={{ objectFit: "cover" }}
+        />
       </div>
       <div className="relative bottom-7 flex flex-col items-center justify-center rounded-lg bg-white px-7 py-3 font-circularstdnormal text-slate-700 shadow-md">
         <h1 className="text-md font-circularstd">{name}</h1>
