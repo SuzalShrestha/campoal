@@ -26,7 +26,7 @@ function Voice() {
           className="rounded-xl"
           src={"/voice.jpg"}
           alt="voice"
-          objectFit="cover"
+          style={{ objectFit: "cover" }}
           layout="fill"
           objectPosition="center"
         />

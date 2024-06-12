@@ -25,7 +25,8 @@ const config = {
         circularstdblack: ["circularstdblack", "sans-serif"],
       },
       backgroundImage: {
-        wave: "url('/wave.svg')",
+        wave: "url('/waves/wave.svg')",
+        waveform: "url('/waves/wave-form.svg')",
       },
       colors: {
         "nav-primary": "#2E77FF",

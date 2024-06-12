@@ -7,9 +7,11 @@ import Story from "@/components/story";
 import Vision from "@/components/vision";
 import Numbers from "@/components/numbers";
 import Team from "@/components/team";
+import Footer from "@/components/footer";
+import FormPage from "@/components/form";
 export default function Home() {
   return (
-    <div>
+    <div className="home">
       <Navbar />
       <Hero />
       <Users />
@@ -19,6 +21,8 @@ export default function Home() {
       <Vision />
       <Numbers />
       <Team />
+      <FormPage />
+      <Footer />
     </div>
   );
 }

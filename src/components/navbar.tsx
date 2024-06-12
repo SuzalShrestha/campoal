@@ -12,7 +12,7 @@ function Logo() {
     <div className="flex items-center justify-between">
       <Link href={"/"} className="mr-8">
         <Image
-          src="/campoal-logo.svg"
+          src="/logos/campoal-logo.svg"
           alt="Campoal Logo"
           width={200}
           height={80}
@@ -33,15 +33,15 @@ function Logo() {
 function NavButtons() {
   return (
     <div className="ml-10 flex gap-5">
-      <ButtonCustom className="bg-nav-primary flex items-center justify-between gap-2 rounded-xl">
+      <ButtonCustom className="flex items-center justify-between gap-2 rounded-xl bg-nav-primary">
         <SquarePen />
         Start a Campaign
       </ButtonCustom>
       <div className="flex gap-0">
-        <ButtonCustom className="bg-nav-secondary rounded-xl rounded-r-none border-r-0">
+        <ButtonCustom className="rounded-xl rounded-r-none border-r-0 bg-nav-secondary">
           Sign up
         </ButtonCustom>
-        <ButtonCustom className="bg-nav-primary rounded-xl rounded-l-none border-l-0">
+        <ButtonCustom className="rounded-xl rounded-l-none border-l-0 bg-nav-primary">
           Sign in
         </ButtonCustom>
       </div>
